@@ -1,0 +1,50 @@
+.h250px {
+  height: 250px;
+}
+
+.h100px {
+  height: 100px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+aside nav .nav-link.active {
+  border-bottom: 3px solid #0784ea;
+}
+
+section {
+  min-height: 800px;
+}
+
+.t50px {
+  top: 50px;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.h700px {
+  height: 700px;
+}
+
+.pc-1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.h30px {
+  height: 30px;
+}
+
+.w30px {
+  width: 30px;
+}
+
+.b5px {
+  bottom: 5px;
+}/*# sourceMappingURL=2pageContent.css.map */

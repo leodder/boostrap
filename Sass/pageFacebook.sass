@@ -1,0 +1,28 @@
+@import _mixin
+
+$fbColor1: #3b5998
+$fbColor2: #5a6589
+$fbColor3: #4e69aa
+$fbColor4: #808cba
+$fbColor5: #9fa8cb
+$fbColor6: #bfc4dc
+$fbColor7: #dfe1ee
+$fbColor8: #2b3c63
+
+$fbColor: #3b5998, #5a6589, #4e69aa, #808cba, #9fa8cb, #bfc4dc, #dfe1ee, #2b3c63
+@for $i from 1 through 8
+    @include bgc(bg-fb#{$i}, nth($fbColor, $i))
+    @include color(text-fb#{$i}, nth($fbColor, $i))
+
+@include hnpx(25)
+@include wnpx(25)
+@include hnpx(30)
+@include wnpx(30)
+@include hnpx(50)
+@include wnpx(50)
+@include hnpx(200)
+@include hnpx(300)
+@include wnpx(400)
+
+body
+    background-color: nth($fbColor, 7)

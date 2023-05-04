@@ -1,0 +1,33 @@
+@import _mixin
+
+$twColor1: #00acee
+$twColor2: #1a8dc2
+$twColor3: #206f98
+$twColor4: #205370
+$twColor5: #1b384a
+$twColor6: #141f27
+$twColor7: #000000
+$twColor8: #e3f1fc
+$twColor: #00acee, #1a8dc2, #206f98, #205370, #1b384a, #141f27, #000000, #e3f1fc
+@for $i from 1 through 8
+    @include bgc(bg-tw#{$i}, nth($twColor, $i))
+    @include color(text-tw#{$i}, nth($twColor, $i))
+
+@include hnpx(25)
+@include wnpx(25)
+@include hnpx(30)
+@include wnpx(30)
+@include hnpx(50)
+@include wnpx(50)
+@include hnpx(60)
+@include wnpx(60)
+@include hnpx(200)
+@include hnpx(300)
+@include wnpx(400)
+@include wnpx(500)
+@include wnpx(550)
+@include wnpx(750)
+@include wnpx(900)
+.text-white-50
+body
+    background-color: nth($twColor, 7)

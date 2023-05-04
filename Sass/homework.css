@@ -1,0 +1,15 @@
+body, html {
+  height: 100%;
+  position: relative;
+  margin: 1rem;
+  font-family: "Rubik Microbe", cursive;
+}
+
+.box {
+  height: 100px;
+  margin-bottom: 3rem;
+  border: 5px darkblue dashed;
+  border-radius: 10px;
+  font-size: 50px;
+  font-color: white;
+}/*# sourceMappingURL=homework.css.map */
